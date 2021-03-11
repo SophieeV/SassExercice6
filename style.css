@@ -1,0 +1,24 @@
+.h2 {
+  color: blue;
+  font-family: arial, sans-serif;
+  font-size: 22px;
+}
+
+.title {
+  width: 100%;
+  height: 600px;
+  background: url(/home/sophie/projet/exercices/sass/exercice6/images/5698501059_c00a143a0d_c.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 30px;
+}
+
+a :hover {
+  color: red;
+}
+a :visited {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

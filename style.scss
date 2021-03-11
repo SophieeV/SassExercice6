@@ -1,0 +1,44 @@
+@mixin typographyTitle
+{
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 30px;
+}
+
+@mixin typographyPartTitle
+{
+  color: blue;
+  font-family: arial, sans-serif;
+  font-size: 22px;
+}
+
+$LinkHover: red;
+$LinkVisited: green;
+
+
+.h2
+{
+  @include typographyPartTitle;
+}
+
+
+.title
+{
+  width: 100%;
+  height: 600px;
+ background: url(/home/sophie/projet/exercices/sass/exercice6/images/5698501059_c00a143a0d_c.jpg);
+  background-repeat: no-repeat;
+  @include typographyTitle;
+}
+
+a
+{
+  :hover
+  {
+    color: $LinkHover;
+  }
+  :visited
+  {
+    color: $LinkVisited;
+  }
+}
